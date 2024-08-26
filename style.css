@@ -1,0 +1,114 @@
+*{
+font-family:sans-serif;
+}
+
+
+.container {
+  color: white;
+  position: absolute;
+  top: 20vh;
+  left: 40%;
+  border-radius: 1.3rem;
+  height: 800px;
+  border: solid 4px black;
+  width: 420px;
+  background: rgb(198, 22, 22);
+  background: linear-gradient(
+    90deg,
+    rgba(198, 22, 22, 1) 0%,
+    rgb(158, 7, 20) 0%,
+    rgba(255, 0, 0, 1) 100%
+  );
+  overflow: hidden;
+}
+
+img{
+  position: absolute;
+  width: 20%;
+
+}
+
+#header{
+  padding: 1rem 1rem 0 1rem;
+}
+
+
+#header>h1{
+  text-align: center;
+}
+
+#header>h4,h3{
+  margin: 2%;
+}
+
+.container__banco{
+background-color: rgb(255, 255, 255);
+color: black;
+padding: 0.7rem;
+font-weight: bolder;
+box-shadow: 7px 7px 10px 6px rgba(0, 0, 0, 0.199);
+box-shadow: inset 0px 10px 10px rgba(0, 0, 0, 0.212);
+height: 50%;
+}
+
+
+.subcontainer__cuenta{
+  position: relative;
+  left: 7%;
+  width: 70%;
+    margin: 1rem;
+    
+    padding: 1rem;
+    padding-top: 0.2rem;
+    border-radius: 1.2rem;
+    color: white;
+    background: rgb(141, 16, 16);
+    background: linear-gradient(
+      90deg,
+      rgba(198, 22, 22, 1) 0%,
+      rgb(158, 7, 20) 0%,
+      rgb(216, 13, 13) 100%
+    );
+
+    box-shadow: 7px 7px 10px 6px rgba(0, 0, 0, 0.199);
+}
+
+.subcontainer__cuenta>h5{
+  margin: 0;
+}
+
+#saldoTotal{
+  margin-top: 20%;
+  margin-bottom: 0;
+  
+}
+
+
+#saldos{
+display: flex;
+flex-direction: row;
+gap: 0.3rem;
+align-items: end;
+}
+
+
+#saldos>p{
+  margin-bottom: 0;
+  font-weight: bolder;
+}
+
+.subcontainer_Datos-banco{
+  margin-top: -1.5rem;
+  height: 40%;
+  background-color: rgb(228, 235, 240);
+  color: black;
+  box-shadow: inset 0px 10px 10px rgba(0, 0, 0, 0.137);
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.subcontainer_Datos-banco>p{
+  margin: 0;
+
+}

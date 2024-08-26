@@ -1,0 +1,9 @@
+{
+    "banco": "Davivienda",
+    "sucursal": "Pereira",    
+    "titular": "Andres Restrepo",
+    "nro_cuenta": "4884-6248-5231",    
+    "saldo": [ { "moneda": "USD", "monto": 725.09 }, { "moneda": "EUR", "monto": 195.67} ],
+    "nro_banco": "1562244781396451",
+    "abierto": "01/05/2024"
+}
